@@ -63,13 +63,14 @@
       <p>The idea of SparkleShare sprouted at the <a href="http://www.gnome.org/">GNOME</a> <a href="https://live.gnome.org/UsabilityProject/London2010">Usability Hackfest</a> in London, where a couple of designers came to the conclusion that they didn't have a good (Open Source) collaboration tool to share their work (for more background, read <a href="http://mairin.wordpress.com/2010/03/01/the-one-where-the-designers-ask-for-a-pony/">&ldquo;The one where the designers ask for a pony&rdquo;</a>). They didn't like how the good collaboration tools were proprietary, and that using them meant having to give up privacy, control and other rights. What they needed was something that they could run and control themselves, without having to depend on other companies.</p>
 
       <h3>Setting up a host</h3>
-      <p> SparkleShare uses the version control system <a href="http://www.git-scm.com">Git</a> under the hood, so setting up a host yourself is pretty easy. Using your own host gives you more privacy and control, as well as lots of cheap storage space and higher transfer speeds. We've made a simple script that does the hard work for you:</p>
+      <p> SparkleShare uses the version control system <a href="http://www.git-scm.com">Git</a> under the hood, so setting up a host yourself is pretty easy. Using your own host gives you more privacy and control, as well as lots of cheap storage space and higher transfer speeds. We've made a simple <a href="https://github.com/hbons/Dazzle">script</a> that does the hard work for you:</p>
 
 <pre>
 <span class="comment"># Run all of the following commands as the root user on
-# a Debian or Red Hat based Linux system
+# a Debian or Red Hat based Linux system</span>
+su
 
-# Fetch the Dazzle script</span>
+<span class="comment"># Fetch the Dazzle script</span>
 curl https://raw.github.com/hbons/Dazzle/master/dazzle.sh \
   --output /usr/bin/dazzle && chmod +x /usr/bin/dazzle
 
@@ -83,7 +84,7 @@ dazzle link
 <span class="comment"># Create a new project. Add as many as you need</span>
 dazzle create PROJECT_NAME
 </pre>
-      <p>For more sophisticated hosting, including team management and access control, check out <a href="http://www.gitlabhq.com/">Gitlab</a>.</p>
+      <p>That's all there is to it. For more sophisticated hosting, including team management and access control, check out <a href="http://www.gitlabhq.com/">Gitlab</a>.</p>
 
       <p>If maintaining your own host isn't for you, there are also existing project hosting sites like <a href="https://www.github.com/">Github</a> or <a href="https://www.bitbucket.org/">Bitbucket</a> that are compatible with SparkleShare (keep in mind your projects will be public unless you're on a plan, respective Terms of Service agreements apply).</p>
 
