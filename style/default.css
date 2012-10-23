@@ -1,5 +1,18 @@
 body {
-  background-color: #362E2E;
+
+background: #386ca7; /* Old browsers */
+
+
+background: #5aa6bf; /* Old browsers */
+background: -moz-linear-gradient(top,  #5aa6bf 0%, #386ca7 25%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5aa6bf), color-stop(25%,#386ca7)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #5aa6bf 0%,#386ca7 25%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #5aa6bf 0%,#386ca7 25%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #5aa6bf 0%,#386ca7 25%); /* IE10+ */
+background: linear-gradient(to bottom,  #5aa6bf 0%,#386ca7 25%); /* W3C */
+
+
+
   color: #fff;
   margin: 0;
   padding: 0;
@@ -7,7 +20,8 @@ body {
 }
 
 pre {
-  background-color: rgba(0, 0, 0, 0.25);
+  background-color: rgba(0,0,0,0.39);
+  border-radius: 0.5em;
   padding: 1.5em 2em;
   font-size: 1em;
   margin: 2em 0;
@@ -18,7 +32,7 @@ pre {
 p {
   text-align: justify;
   line-height: 1.8em;
-  color: rgba(255,255,255,0.5);
+  color: rgba(255,255,255,0.6);
   font-size:  0.8em;
 }
 
@@ -44,9 +58,9 @@ h3 {
   margin-right: auto;
   padding: 4em 4em 2em 4em;
   width: 40em;
-  background-color: rgba(0,0,0,0.39);
-  border-left: 1px solid rgba(0,0,0,0.39);
-  border-right: 1px solid rgba(0,0,0,0.39);
+  background-color: rgba(0,0,0,0.1);
+  border-left: 1px solid rgba(0,0,0,0.1);
+  border-right: 1px solid rgba(0,0,0,0.1);
   position: relative;
   background-image: url('../img/background.png');
   background-position: center -25em;
@@ -55,7 +69,7 @@ h3 {
 
 .download {
   font-weight: bold;
-  background-color: rgba(0,0,0,0.39);
+  background-color: rgba(0,0,0,0.33);
   border-radius: 0.5em;
   width: 9.5em;
   padding: 1.5em;
@@ -98,7 +112,6 @@ h3 {
 a {
   font-weight: bold;
   color: #fff;
-  opacity: 0.9;
   text-decoration: none;
   font-family: sans-serif;
 }
@@ -120,3 +133,6 @@ ul li {
   margin-top: 0.5em;
 }
 
+li a {
+  opacity: 0.8;
+}
