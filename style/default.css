@@ -53,6 +53,18 @@ h3 {
   margin-top: 2em; 
 }
 
+h4 {
+  margin-left: 0.6em;
+}
+
+ul + h4 {
+  margin-top: 2em;
+}
+
+ul + h3 {
+  margin-top: 2.5em;
+}
+
 #wrapper {        
   margin-left: auto;
   margin-right: auto;
@@ -129,10 +141,20 @@ a:hover {
   width: 20em;
 }
 
+ul {
+  padding-left: 1em;
+}
+
 ul li {
-  margin-top: 0.5em;
+  margin-top: 0.8em;
+  list-style: none;
+  padding-left: 0.5em;
 }
 
 li a {
   opacity: 0.8;
+}
+
+li#flattr a {
+  padding-top: 4px;
 }
