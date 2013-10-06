@@ -77,12 +77,12 @@ ul + h3 {
   font-weight: bold;
   background-color: rgba(0,0,0,0.33);
   border-radius: 0.5em;
-  width: 10.5em;
+  width: 10em;
   padding: 1.4em;
   font-family: sans-serif;
   float: left;
   line-height: 1.2em;
-  margin: 3.5em 0.41em;
+  margin: 3.5em 0.38em;
 }
 
 .download:hover {
