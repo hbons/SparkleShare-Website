@@ -25,72 +25,66 @@
         <ul id="features">
           <li>File synchronisation</li>
           <li>Version control</li>
-          <li>Self hosted</i>
-          <li>Client side encryption</i>
-          <li>Free and Open Source</i>
+          <li>Self hosted</li>
+          <li>Client side encryption</li>
+          <li>Free and Open Source</li>
         </ul>
-
-        <img id="graphic" src="img/graphic.png">
+        <img id="graphic" src="img/graphic.png" alt="SparkleShare">
       </div>
 
       <div class="clear">
+        <a href="https://bitbucket.org/hbons/sparkleshare/downloads/sparkleshare-linux-1.4.tar.gz" target="blank" onclick="setTimeout(function() { document.location.href='thanks.htm'; }, 1);">
+          <div class="download">
+            Linux distributions<br>
+            <span class="details">
+            GNOME-based or Ubuntu<br>
+            <small>version 1.4 - Apr 20, 2014</small>
+            </span>
+          </div>
+        </a>
+        <a href="https://bitbucket.org/hbons/sparkleshare/downloads/sparkleshare-mac-1.4.zip" target="blank" target="blank" onclick="setTimeout(function() { document.location.href='thanks.htm'; }, 1);">
+          <div class="download">
+            Mac OS X<br>
+            <span class="details">
+            Snow Leopard or later<br>
+            <small>version 1.4 - Apr 20, 2014</small>
+            </span>
+          </div>
+        </a>
+        <a href="https://bitbucket.org/hbons/sparkleshare/downloads/sparkleshare-windows-1.4.msi" target="blank" target="blank" onclick="setTimeout(function() { document.location.href='thanks.htm'; }, 1);">
+          <div class="download">
+            Windows<br>
+            <span class="details">
+            Vista or later<br>
+            <small>version 1.4 - Apr 20, 2014</small>
+            </span>
+          </div> 
+        </a>
 
-      <a href="https://bitbucket.org/hbons/sparkleshare/downloads/sparkleshare-linux-1.4.tar.gz">
-        <div class="download">
-          Linux distributions<br>
-          <span class="details">
-          GNOME-based or Ubuntu<br>
-          <small>version 1.4 - Apr 20, 2014</small>
-          </span>
-        </div>
-      </a>
-
-      <a href="https://bitbucket.org/hbons/sparkleshare/downloads/sparkleshare-mac-1.4.zip">
-        <div class="download">
-          Mac OS X<br>
-          <span class="details">
-          Snow Leopard or later<br>
-          <small>version 1.4 - Apr 20, 2014</small>
-          <span>
-        </div>
-      </a>
-
-      <a href="https://bitbucket.org/hbons/sparkleshare/downloads/sparkleshare-windows-1.4.msi">
-        <div class="download">
-          Windows<br>
-          <span class="details">
-          Vista or later<br>
-          <small>version 1.4 - Apr 20, 2014</small>
-        </div> 
-      </a>
-
-      <h3>How does it work?</h3>
-      <p>SparkleShare creates a special folder on your computer. You can add remotely hosted folders (or "projects") to this folder. These projects will be automatically kept in sync with both the host and all of your peers when someone adds, removes or edits a file.</p>
+        <h3>How does it work?</h3>
+        <p>SparkleShare creates a special folder on your computer. You can add remotely hosted folders (or "projects") to this folder. These projects will be automatically kept in sync with both the host and all of your peers when someone adds, removes or edits a file.</p>
 
 
-      <h3>What's it good for?</h3>
-      <p>SparkleShare was made to cover certain use cases, but doesn't handle every scenario well. To help you decide if SparkleShare is right for you, here's a few examples of what it does well and less well with smiley faces:</p>
-      <h4>Great</h4>
-      <ul id="good">
-        <li>Frequently changing project files, like text, office documents, and images</li>
-        <li>Tracking and syncing files edited by multiple people</li>
-        <li>Reverting a file to any point in its history</li>
-        <li>Preventing spying on your files on the server using encryption</li>
-      </ul>
-      <h4>Not so great</h4>
-      <ul id="bad">
-        <li>Full computer backups</li>
-        <li>Storing your photo or music collection</li>
-        <li>Large binary files that change often, like video editing projects</li>
-      </ul>
+        <h3>What's it good for?</h3>
+        <p>SparkleShare was made to cover certain use cases, but doesn't handle every scenario well. To help you decide if SparkleShare is right for you, here's a few examples of what it does well and less well with smiley faces:</p>
+        <h4>Great</h4>
+        <ul id="good">
+          <li>Frequently changing project files, like text, office documents, and images</li>
+          <li>Tracking and syncing files edited by multiple people</li>
+          <li>Reverting a file to any point in its history</li>
+          <li>Preventing spying on your files on the server using encryption</li>
+        </ul>
+        <h4>Not so great</h4>
+        <ul id="bad">
+          <li>Full computer backups</li>
+          <li>Storing your photo or music collection</li>
+          <li>Large binary files that change often, like video editing projects</li>
+        </ul>
 
-      <p>For more information on usecases, <a href="https://www.github.com/hbons/SparkleShare/wiki/">read the wiki</a>.</p>
+        <p>For more information on usecases, <a href="https://www.github.com/hbons/SparkleShare/wiki/">read the wiki</a>.</p>
 
-      <h3>Why SparkleShare?</h3>
-      <p>The idea of SparkleShare sprouted at the <a href="http://www.gnome.org/">GNOME</a> <a href="https://live.gnome.org/UsabilityProject/London2010">Usability Hackfest</a> in London, where a couple of designers came to the conclusion that they didn't have a good (Open Source) collaboration tool to share their work (for more background, read <a href="http://mairin.wordpress.com/2010/03/01/the-one-where-the-designers-ask-for-a-pony/">&ldquo;The one where the designers ask for a pony&rdquo;</a>). They didn't like how the good collaboration tools were proprietary, and that using them meant having to give up privacy, control and other rights. What they needed was something that they could run and control themselves, without having to depend on other companies.</p>
-
-      <h3>Setting up a host</h3>
-      <p> SparkleShare uses the version control system <a href="http://www.git-scm.com">Git</a> under the hood, so setting up a host yourself is relatively easy. Using your own host gives you more privacy and control, as well as lots of cheap storage space and higher transfer speeds. We've made a simple <a href="https://github.com/hbons/Dazzle">script</a> that does the hard work for you:</p>
+        <h3>Setting up a host</h3>
+        <p> SparkleShare uses the version control system <a href="http://www.git-scm.com">Git</a> under the hood, so setting up a host yourself is relatively easy. Using your own host gives you more privacy and control, as well as lots of cheap storage space and higher transfer speeds. We've made a simple <a href="https://github.com/hbons/Dazzle">script</a> that does the hard work for you:</p>
 
 <pre>
 <span class="comment"># Run all of the following commands as the root user on
@@ -117,25 +111,20 @@ dazzle create-encrypted PROJECT_NAME
 
       <p>If maintaining your own host isn't for you, there are also existing project hosting sites like <a href="https://www.github.com/">Github</a> or <a href="https://www.bitbucket.org/">Bitbucket</a> that are compatible with SparkleShare (keep in mind your projects will be public unless you're on a plan, respective Terms of Service agreements apply).</p>
 
-      <h3>Contributing</h3>
+      <h3>Why SparkleShare?</h3>
+      <p>The idea of SparkleShare sprouted at the <a href="http://www.gnome.org/">GNOME</a> <a href="https://live.gnome.org/UsabilityProject/London2010">Usability Hackfest</a> in London, where a couple of designers came to the conclusion that they didn't have a good (Open Source) collaboration tool to share their work (for more background, read <a href="http://mairin.wordpress.com/2010/03/01/the-one-where-the-designers-ask-for-a-pony/">&ldquo;The one where the designers ask for a pony&rdquo;</a>). They didn't like how the good collaboration tools were proprietary, and that using them meant having to give up privacy, control and other rights. What they needed was something that they could run and control themselves, without having to depend on other companies.</p>
+
+      <h3>Need help?</h3>
       <ul>
-        <li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4X9PWRXJHCDS4">Buy us a beer</a> (<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4X9PWRXJHCDS4">Paypal</a> | <a href="bitcoin:1GWwrXuw1QKakf6F29jCdz11cyfx9HkZut">Bitcoin</a>)</li>
-        <li id="flattr"><a class="FlattrButton" style="display:none;" rev="flattr;button:compact;" href="http://www.sparkleshare.org/"></a><noscript><a href="http://flattr.com/thing/21770/SparkleShare-Self-hosted-instant-secure-file-sync" target="_blank"><img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a></noscript></li>
-      </ul>
-      
-      <h3>Contact</h3>
-      <ul>
-        <li><a href="https://www.twitter.com/SparkleShare">Follow @SparkleShare</a></li>
-        <li><a href="https://www.github.com/hbons/SparkleShare/issues/">Report a problem</a></li>
-        <li><a href="irc://irc.gnome.org/sparkleshare">Join the IRC channel</a><br><small>(#sparkleshare on irc.gnome.org)</small></li>
-        <li><a href="mailto:hylkebons@gmail.com">Contact project maintainer</a></li>
+        <li>Need technical support? <a href="irc://irc.gnome.org/sparkleshare">Join our IRC channel</a> <small>(#sparkleshare on irc.gnome.org)</small></li>
+        <li>Encountered a problem? <a href="https://www.github.com/hbons/SparkleShare/issues/">Report it on Github</a></li>
+        <li>Something else? <a href="mailto:hylkebons@gmail.com">Contact the project maintainer</a></li>
       </ul>
 
       <br>
       <p>Hosting kindly provided by: <a href="http://6sync.com/" target="blank">6sync</a></p>
     </div>
-    
     <a href="https://github.com/hbons/SparkleShare"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub"></a>
+  </div>
   </body>
 </html>
-
