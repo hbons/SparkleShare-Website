@@ -22,7 +22,17 @@ body {
   color: #fff;
   margin: 0;
   padding: 0;
-  font-family: "Liberation Sans",sans-serif;
+  font-family: "SF UI Text", "Liberation Sans", sans-serif;
+  background-image: url('../img/background.png');
+  background-position: center -26em;
+  background-repeat: no-repeat;
+}
+
+#fork-me {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0; 
 }
 
 pre {
@@ -37,8 +47,9 @@ pre {
 
 p {
   line-height: 1.7em;
-  color: rgba(255,255,255,0.6);
-  font-size:  0.8em;
+  color: rgba(255,255,255,0.8);
+  font-size:  1em;
+  width: 95%;
 }
 
 .comment {
@@ -54,12 +65,16 @@ p {
 }
 
 h3 {
-  font-family: "Liberation Sans", sans-serif;
-  margin-top: 2em; 
+  margin-top: 2em;
+  font-size: 1.6em;
 }
 
 h3 + p {
   margin-top: 1em;
+}
+
+p + p {
+ margin-top: 1.5em; 
 }
 
 h4 {
@@ -80,26 +95,22 @@ ul + p {
   margin-right: auto;
   padding: 4em;
   width: 48em;
-  background-color: rgba(0,0,0,0.1);
   min-height: 100%;
-  border-left: 1px solid rgba(0,0,0,0.1);
-  border-right: 1px solid rgba(0,0,0,0.1);
   position: relative;
-  background-image: url('../img/background.png');
-  background-position: center -25em;
-  background-repeat: no-repeat;
 }
 
 .download {
   font-weight: bold;
   background-color: rgba(0,0,0,0.33);
   border-radius: 0.5em;
-  width: 12.5em;
+  width: 32%;
   padding: 1.3em;
   font-family: sans-serif;
   float: left;
   line-height: 1.2em;
-  margin: 3.5em 0.38em;
+  margin: 3.5em 0;
+  margin-right: 1em;
+  margin-left: -0.5em;
 }
 
 .donate {
@@ -143,6 +154,7 @@ ul + p {
 #graphic {
   float: right;
   margin-right: 4.5em;
+  margin-top: 6px;
 }
 
 .clear {
