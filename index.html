@@ -16,8 +16,8 @@
 
       <div>
         <ul id="features">
-          <li>File synchronisation</li>
-          <li>Version control</li>
+          <li>File sync</li>
+          <li>Version history</li>
           <li>Self hosted</li>
           <li>Client side encryption</li>
           <li>Free and Open Source</li>
@@ -26,18 +26,12 @@
       </div>
 
       <div class="clear">
-        <a href="https://bitbucket.org/hbons/sparkleshare/downloads/sparkleshare-linux-1.5.tar.gz" target="blank" onclick="setTimeout(function() { document.location.href='thanks.html'; }, 1);">
-          <div class="download">
-            Linux<br>
-            <span class="details">
-            GNOME-based or Ubuntu<br>
-            <small>version 1.5 - Dec 22, 2015</small>
-            </span>
-          </div>
-        </a>
+        <br><br>
+        <h3>Downloads</h3>
+        <br>
         <a href="https://bitbucket.org/hbons/sparkleshare/downloads/sparkleshare-mac-1.5.zip" target="blank" target="blank" onclick="setTimeout(function() { document.location.href='thanks.html'; }, 1);">
           <div class="download">
-            Mac OS X<br>
+            macOS<br>
             <span class="details">
             Snow Leopard or later<br>
             <small>version 1.5 - Dec 22, 2015</small>
@@ -53,6 +47,17 @@
             </span>
           </div> 
         </a>
+
+        <div class="clear">
+            <h3>Linux</h3>
+            <p>You can install the package from your distribution (likely old and not updated often), but we recommend to get our <a href="http://www.flatpak.org/">Flatpak</a> with automatic updates to always enjoy the latest and greatest:</p>
+<pre>
+<span class="comment"># Install the flatpak package if you haven't already</span>
+flatpak remote-add flathub https://flathub.org/repo/flathub.flatpakrepo
+flatpak install flathub org.sparkleshare.SparkleShare
+</pre>
+        </div>
+        <br>
 
         <h3>How does it work?</h3>
         <p>SparkleShare creates a special folder on your computer. You can add remotely hosted folders (or "projects") to this folder. These projects will be automatically kept in sync with both the host and all of your peers when someone adds, removes or edits a file.</p>
@@ -70,7 +75,6 @@
         <h4>Not so great</h4>
         <ul id="bad">
           <li>Full computer backups</li>
-          <li>Storing your photo or music collection</li>
           <li>Large binary files that change often, like video editing projects</li>
         </ul>
 
@@ -108,17 +112,20 @@ dazzle create-encrypted PROJECT_NAME
       <p>The idea of SparkleShare sprouted at the <a href="https://www.gnome.org/">GNOME</a> <a href="https://live.gnome.org/UsabilityProject/London2010">Usability Hackfest</a> in London, where a couple of designers came to the conclusion that they didn't have a good (Open Source) collaboration tool to share their work (for more background, read <a href="https://mairin.wordpress.com/2010/03/01/the-one-where-the-designers-ask-for-a-pony/">&ldquo;The one where the designers ask for a pony&rdquo;</a>). They didn't like how the good collaboration tools were proprietary, and that using them meant having to give up privacy, control and other rights. What they needed was something that they could run and control themselves, without having to depend on other companies.</p>
 
       <h3>Need help?</h3>
-      <ul>
-        <li>Need technical support? <a href="irc://irc.gnome.org/sparkleshare">Join our IRC channel</a> <small>(#sparkleshare on irc.gnome.org)</small></li>
-        <li>Encountered a problem? <a href="https://www.github.com/hbons/SparkleShare/issues/">Report it on Github</a></li>
-        <li>Something else? <a href="mailto:hylkebons@gmail.com">Contact the project maintainer</a></li>
-      </ul>
+      <p>
+        <ul>
+          <li>Encountered a problem? <a href="https://www.github.com/hbons/SparkleShare/issues/">Report it on GitHub</a></li>
+          <li>Something else? <a href="mailto:hi@planetpeanut.uk">Contact the project maintainer</a></li>
+        </ul>
+      </p>
 
       <h3>Twitter</h3>
-      <ul>
-        <li><a href="https://www.twitter.com/SparkleShare/">@SparkleShare</a></li>
-        <li><a href="https://www.twitter.com/hbons/">@hbons</a></li>
-      </ul>
+      <p>
+        <ul>
+          <li><a href="https://www.twitter.com/SparkleShare/">@SparkleShare</a></li>
+          <li><a href="https://www.twitter.com/hbons/">@hbons</a></li>
+        </ul>
+      </p>
     </div>
   </div>
     <a href="https://github.com/hbons/SparkleShare"><img id="fork-me" src="img/github.png" alt="Fork me on GitHub"></a>
